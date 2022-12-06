@@ -1,4 +1,5 @@
-# PORTFOLIOPROJECT
-Hello there
-I'm James, a developer in several fields.
-This is the source code for my portfolio website, on the website you'll see some projects that I've worked on.
+# PORTFOLIO PROJECT
+
+## Hello there
+I'm James, an aspiring developer learning the ropes.
+This my portfolio website, on it you'll see some projects that I've worked on from time to time.

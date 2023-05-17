@@ -578,9 +578,7 @@ section {
 }
 
 .portfolios {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
@@ -594,7 +592,6 @@ section {
 .portfolios .portfolio-item img {
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -607,24 +604,12 @@ section {
   left: 0;
   top: 0;
   border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   opacity: 0;
-  scale: 0;
-  -webkit-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -635,14 +620,8 @@ section {
 }
 
 .portfolios .portfolio-item .hover-items .icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -651,18 +630,11 @@ section {
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 0 1rem;
   cursor: pointer;
-  -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -682,9 +654,9 @@ section {
 
 .portfolio-item:hover .hover-items {
   opacity: 1;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
+
 
 .blogs {
   display: -ms-grid;
